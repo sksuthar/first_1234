@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+body{
+        background-color: #e9ebee;
+}
+.application-base{
+    margin-top: 9em;
+}
+.application-base-profile{
+ margin-top: 7em;   
+}
+.application-col-section{
+      border: 1px solid #c1c0c0;
+      background: #fff;
+}
+hr{
+        margin-top: 7px;
+}
+.glyphicon{
+    cursor: pointer;
+}
+.back-color-f{
+background: #FFF;
+}
+.head-color{
+    color: #337ab7;
+    font-size: larger;
+}
+.border-create{
+    border: 1px solid #c2c2c2;
+    border-radius: 2px;
+}
+.text-align{
+    text-align: center;    
+}
+.box-3{
+    border: 1px solid #c2c2c2;
+    padding: 15px 0px 0px 0px;
+    border-radius: 4px;
+    background: #FFF;
+}
+.new-btn{
+    padding: 7px 0px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #027cd5;
+    color: #027cd5;
+    min-width: 95px;
+    font-size: 12px;
+}
+.details-btn
+{
+    display: inline-block;
+    margin: 0 auto;
+    color: #027cd5;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    outline: 0;
+    border-top: 1px solid #c2c2c2;
+    text-decoration: none;
+}
+
+.col-save{
+    border-top: 1px solid #c2c2c2;
+    padding-top: 2em;
+    margin-top: 2em;
+    margin-bottom: 10px;
+} 
+.margin-btm{
+    margin-bottom: 10px;
+}
+.margin-btm-10{
+    margin-bottom: 20px;
+}
+.d_mar-btm{
+    margin-bottom: 7em;
+}
+.error{
+    color: #B94A48;
+    padding: 2px 0px;
+    margin-top: 2px;
+    font-weight: 100;
+}
+.star{
+    color: #B94A48;
+}
+
+
+
+//Bootstrap Classes
+.navbar-collapse{
+    float:right;
+}
+.navbar{
+    background: #2e6da4;
+}
+.dropdown-menu .divider{
+    margin: 0 0;
+}
+.dropdown-menu>li>a{
+    padding: 13px 20px;
+}
+
+.main-page-head{
+    font-weight: bold;
+    font-size: larger;
+}
+.lable-status{
+        padding: 5px 18px 6px;
+        border-radius: 0px;
+}
+.gallery-dialog-modal{
+    width: 60%;
+    margin: 50px auto;
+}
+
+
+
+
+//School Profile
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.card.people .card-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 29px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #c1c0c0;
+}
+
+.card.hovercard .cardheader { 
+    background: url("http://lorempixel.com/850/280/nature/4/");
+    background-size: cover;
+    height: 15em;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -70px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+        width: 100px;
+    height: 100px;
+    max-width: 100px;
+    border-radius: 4px;
+    max-height: 100px;
+    border: 1px solid #c2c2c2;
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+}
+.profile-head{
+    padding: 20px 27px;
+    margin-bottom: 0px;
+}
